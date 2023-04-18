@@ -1,0 +1,47 @@
+body {
+    background-color: lightseagreen;
+}
+
+label {
+    font-size: x-large;
+    font-family: 'MedievalSharp', cursive;
+}
+
+#clear {
+    font-family: 'Boogaloo', cursive;
+}
+
+.l {
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+#time {
+    float: right;
+    margin-right: 60px;
+}
+
+#heading {
+    width: 100%;
+    background-color: darkkhaki;
+}
+
+#sketch {
+    float: right;
+}
+
+canvas {
+    margin-top: 150px;
+    border: 8px double orangered;
+    animation-name: myanimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myanimation {
+    from {
+        box-shadow: 5px 5px 40px rgb(131, 217, 154);
+    }
+    to {
+        box-shadow: 5px 5px 40px rgb(49, 221, 61);
+    }
+}
